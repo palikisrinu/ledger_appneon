@@ -51,6 +51,11 @@ public class Ledger_Controller {
 	public Ledger_Controller(LedgerService ledgerService) {
 		this. ledgerService=ledgerService;
 	}
+
+	@GetMapping("/test")
+public String test() {
+    return "Ledger Backend Running";
+}
 		
 	@PostMapping("/line")
     public Line createLine(@RequestBody Line line) {
