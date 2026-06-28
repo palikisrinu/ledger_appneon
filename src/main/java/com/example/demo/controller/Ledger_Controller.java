@@ -34,7 +34,7 @@ import com.example.demo.service.LedgerService;
 @CrossOrigin(origins = {
 	    "http://localhost:5173",
 	    "http://10.150.191.138:5173",
-		"https://stellar-tapioca-c78440.netlify.app/"
+		"https://stately-stroopwafel-0d44c5.netlify.app/"
 	})
 @RestController
 @RequestMapping("/ledger")
